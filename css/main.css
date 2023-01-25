@@ -126,20 +126,15 @@ a {
 
 .hero__h3 {
   font-size: 3rem;
-  color: #141f28;
+  color: #f3f3f3;
   justify-self: flex-start;
   margin-bottom: 30px;
   line-height: 1.5;
   
 }
 .hero__h3 span {
-  color: #141f28;
-  text-shadow: 
-  -1px -1px 0 #f3f3f3,
-  1px -1px 0 #f3f3f3,
-  -1px 1px 0 #f3f3f3,
-  1px 1px 0 #f3f3f3
-  ;
+  color: #f3f3f3;
+  
 }
 .hero__h1 {
   
@@ -209,12 +204,26 @@ a {
 .callToAction {
   padding: 10px 100px;
   font-size: 20px;
-  border: 1px solid ;
+  border: 2px solid #141f28;
   border-radius: 6px ;
   -webkit-border-radius: 6px ;
   -moz-border-radius: 6px ;
   -ms-border-radius: 6px ;
   -o-border-radius: 6px ;
+  background-color: #f3f3f3;
+  box-shadow: 3px 3px 10px #141f28;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.callToAction:hover {
+  background-color: #ffdf7f;
+}
+.callToAction:active {
+  background-color: #ffdf7f;
+  box-shadow: inset 3px 3px 10px #141f28;
 }
 /* FINAL ESTILOS HERO */
 
